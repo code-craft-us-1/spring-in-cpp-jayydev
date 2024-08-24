@@ -1,7 +1,14 @@
 #include <vector>
 
 namespace Statistics {
-    // define the Stats structure here. See the tests to infer its properties
+    struct Stats {
+        double average;
+        double max;
+        double min;
+
+        Stats() : average(NAN), max(NAN), min(NAN) {}
+        Stats(double avg, double mx, double mn) : average(avg), max(mx), min(mn) {}
+    };
     
-    Stats ComputeStatistics(const std::vector<___>& );
+    Stats ComputeStatistics(const std::vector<double>&);
 }
