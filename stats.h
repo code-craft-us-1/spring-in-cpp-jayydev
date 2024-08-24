@@ -1,7 +1,7 @@
+#include <cmath>
 #include <vector>
 
-namespace Statistics {
-    #define NAN (-(float)(INFINITY * 0.0F))
+namespace Statistics {    
     struct Stats {
         double average;
         double max;
