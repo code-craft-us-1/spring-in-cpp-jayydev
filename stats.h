@@ -1,8 +1,10 @@
 #include <cmath>
 #include <vector>
 
-namespace Statistics {    
-    struct Stats {
+namespace Statistics 
+{    
+    struct Stats 
+    {
         double average;
         double max;
         double min;
